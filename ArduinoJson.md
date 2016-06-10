@@ -157,3 +157,7 @@ void sendDisplayData () {
   Serial.print('\n');
 }
 ```
+
+***
+
+[Подробно о ArduinoJson](https://github.com/bblanchon/ArduinoJson/wiki)
