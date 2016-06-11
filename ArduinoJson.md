@@ -179,7 +179,7 @@ void loop() {
 */
 void sendLedOn () {
   // вручную формируем и отправляем команду
-  String command = "команда"
+  String command = "команда";
   Serial.print ("{\"cmd\":\""+command+"\"}\n");
 }
 
@@ -194,7 +194,7 @@ void sendDisplayData () {
   sensorValue = map(sensorValue, 320, 910, 0, 100);
   
   // вручную формируем и отправляем команду
-  String command = "команда"
+  String command = "команда";
   Serial.print ("{\"cmd\":\""+command+"\", \"params\": { \"text\":\""+sensorValue+"\"}}\n");
 }
 ```
