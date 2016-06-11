@@ -53,10 +53,10 @@ void parseCommand() {
   StaticJsonBuffer<100> commandBuffer;
 
   // ссылка на Json объект команды
-  JsonObject& root = commandBuffer.parseObject(inputString);
+  JsonObject& command = commandBuffer.parseObject(inputString);
   
   // извлекаем значение "cmd"
-  String cmd = root["cmd"];
+  String cmd = command["cmd"];
   
   // в зависимости от полученной команды 
   // выполняем определенные действия
@@ -66,11 +66,11 @@ void parseCommand() {
     // действия при получении команды_2 
   } else if (cmd == "команда_ползунка") {
      // получаем значение ползунка
-     int value = root["params"]["value"];
+     int value = command["params"]["value"];
      // действия ...
   } else if (cmd == "команда_джойстика") {
-     int speed = root["params"]["speed"];
-     int angle = root["params"]["angle"];
+     int speed = command["params"]["speed"];
+     int angle = command["params"]["angle"];
      // действия ...
   }
 
