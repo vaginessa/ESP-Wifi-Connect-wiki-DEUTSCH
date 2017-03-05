@@ -1,4 +1,3 @@
-# English
 Here you can find description of commands mechanism and examples of using widgets within DK Gadget Controller app.
 
 ## Content
