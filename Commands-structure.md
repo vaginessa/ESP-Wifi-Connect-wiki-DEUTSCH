@@ -77,4 +77,4 @@ ArduinoJson - library that helps device:
 * parse received command;
 * prepare command for sending to app.
 
-[Using ArduinoJson with DK Gadget Controller app.](soon)
+Using ArduinoJson with DK Gadget Controller app (Available soon).
