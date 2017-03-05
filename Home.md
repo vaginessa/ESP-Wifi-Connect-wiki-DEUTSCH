@@ -3,6 +3,7 @@ Here you can find description of commands mechanism and examples of using widget
 
 ## Content
 * [Commands structure](https://github.com/ikrio/GadgetController/wiki/Commands-structure)
+* [Using ArduinoJson with DK Gadget Controller](https://github.com/ikrio/GadgetController/wiki/Using-ArduinoJson-with-DK-Gadget-Controller)
 
 # Русский
 В данном разделе представлено описание работы с командами в приложении ***DK Gadget Controller***.
