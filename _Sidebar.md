@@ -2,6 +2,7 @@
 
 * [Commands structure](https://github.com/ikrio/GadgetController/wiki/Commands-structure)
 * [Using ArduinoJson with DK Gadget Controller](https://github.com/ikrio/GadgetController/wiki/Using-ArduinoJson-with-DK-Gadget-Controller)
+* [Communicating through the Internet](https://github.com/ikrio/GadgetController/wiki/Communicating-through-the-Internet)
 
 [**Русский**](https://github.com/ikrio/GadgetController/wiki/Gadget-Controller-Wiki-RU)
 
