@@ -47,7 +47,7 @@ For widget "***Joystick***":
 
 ## Incoming commands
 
-Commands that app receives from devices are called incoming commands (or input commands).
+Commands that app receives from the device are called incoming commands (or input commands).
 
 ***
  
