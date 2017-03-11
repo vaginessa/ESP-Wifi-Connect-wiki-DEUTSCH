@@ -1,6 +1,6 @@
 ***DK Gadget Controller*** is using **commands** for communicating with devices.
 
-Commands are simple JSON objects.
+Commands are simple [JSON](https://en.wikipedia.org/wiki/JSON) objects.
 During communication with the device, commands are separated by new line symbol '\n' (0x0A).
 
 ## Outgoing commands
